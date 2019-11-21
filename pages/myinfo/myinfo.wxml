@@ -1,4 +1,3 @@
-<!--pages/myinfo/myinfo.wxml-->
 <view>
   <view class="userinfo">
     <button class="loginbutton" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录</button>
