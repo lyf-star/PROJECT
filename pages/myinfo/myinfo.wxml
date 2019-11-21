@@ -14,12 +14,12 @@
       <text class="item-text">个人信息</text>
     </view>
     <view class="person-line"></view>
-    <view class='item'>
+    <view class='item' bindtap='toprogress'>
       <image class="item-image" src="../images/schedule.png"></image>
       <text class="item-text">预约进度</text>
     </view>
     <view class="person-line"></view>
-    <view class='item'>
+    <view class='item' bindtap='torecord'>
       <image class="item-image" src="../images/record.png"></image>
       <text class="item-text">租赁记录</text>
     </view>
