@@ -1,0 +1,58 @@
+/* pages/info/info.wxss */
+.content{
+  margin-top: 20px;
+}
+
+.percard {
+  padding: 5px;
+  margin-left: 18px;
+  width: 85%;
+  height: 330px;
+  background-color: burlywood;
+  border-radius: 15px;
+}
+
+.title{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+
+.col{
+  height: 30px;
+  display: flex;
+  margin: 5px;
+}
+
+.intro{
+  color: ghostwhite;
+  font-size: 15px;
+  width: 60%;
+  justify-content: flex-start;
+  display: flex;   
+  flex-grow: 1; 
+  margin-left:20px;
+} 
+
+.info{
+  font-size: 15px;
+  justify-content: flex-end;
+  display: flex;   
+  flex-grow: 1;   
+  margin-right: 30px;
+}
+
+.save{
+  margin: 10px;
+}
+
+.savebottom{
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  margin-left: 100px;
+  background-color: orange;
+  color: white;
+}

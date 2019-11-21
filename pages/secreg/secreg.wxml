@@ -1,0 +1,7 @@
+<!--pages/seclog/seclog.wxml-->
+<view class="container" style="background:url('../images/3.jpg');background-size: cover">
+  <view class="bottomtype">
+    <button class="bottomstyle" > 个人用户注册 </button>
+    <button class="bottomstyle" > 管理账号注册 </button>
+  </view>
+</view>

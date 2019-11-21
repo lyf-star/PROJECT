@@ -1,0 +1,32 @@
+<view class='content'>
+  <view class='percard'>
+    <view class='title'>个人名片</view>
+    <view class='col'>
+      <label class='intro'>用户名：</label>
+      <input class='info' placeholder="学号/职工号"/>
+    </view>
+    <view class='col'>
+      <label class='intro'>学号/教工号：</label>
+      <input class='info' placeholder="学号/职工号"/>
+    </view>
+    <view class='col'>
+      <label class='intro'>联系方式：</label>
+      <input class='info' placeholder="学号/职工号"/>
+    </view>
+    <view class='col'>
+      <label class='intro'>电子邮箱：</label>
+      <input class='info' placeholder="学号/职工号"/>
+    </view>
+    <view class='col'>
+      <label class='intro'>所属组织：</label>
+      <input class='info' placeholder="学号/职工号"/>
+    </view>
+    <view class='col'>
+      <label class='intro'>职位：</label>
+      <input class='info' placeholder="学号/职工号"/>
+    </view>
+  </view>
+  <view class='save'>
+    <button class='savebottom'>保存</button>
+  </view>
+</view>

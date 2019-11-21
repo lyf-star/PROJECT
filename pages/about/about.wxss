@@ -1,0 +1,6 @@
+/* pages/about/about.wxss */
+.content{
+  margin: 35px;
+  color: blueviolet;
+  background-color: gainsboro;
+}

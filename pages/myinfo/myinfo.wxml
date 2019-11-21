@@ -1,0 +1,45 @@
+<!--pages/myinfo/myinfo.wxml-->
+<view>
+  <view class="userinfo">
+    <button class="loginbutton" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录</button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="person-line"></view>
+  <view class="person-line"></view>
+  <view class="person-list">
+    <view class='item' catchtap="toInfo">
+      <image class="item-image" src="../images/myinfo.png"></image>
+      <text class="item-text">个人信息</text>
+    </view>
+    <view class="person-line"></view>
+    <view class='item'>
+      <image class="item-image" src="../images/schedule.png"></image>
+      <text class="item-text">预约进度</text>
+    </view>
+    <view class="person-line"></view>
+    <view class='item'>
+      <image class="item-image" src="../images/record.png"></image>
+      <text class="item-text">租赁记录</text>
+    </view>
+    <view class="person-line"></view>
+    <view class='item' bindtap='tomylike'>
+      <image class="item-image" src="../images/mylike.png"></image>
+      <text class="item-text">我的收藏</text>
+    </view>
+    <view class="person-line"></view>
+    <view class='item' bindtap='toabout'>
+      <image class="item-image" src="../images/about.png"></image>
+      <text class="item-text">关于</text>
+    </view>
+    <view class="person-line"></view>    
+    <view class='item' bindtap='exit'>
+      <image class="item-image" src="../images/loginout.png"></image>
+      <text class="item-text">退出登录</text>
+    </view>
+    <view class="person-line"></view>
+  </view>
+  <view class="separate"></view>
+</view>

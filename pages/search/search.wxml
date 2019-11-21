@@ -1,0 +1,35 @@
+<view class='view_row'>  
+    <view class="search">  
+      <view class="df search_arr">  
+        <icon class="searchcion" size='20' type='search'></icon>  
+        <input class="" placeholder="输入要搜索物资或场地" value="{{searchValue}}" bindinput="searchValueInput"/>  
+      </view>  
+    </view>
+    <button class="sousuo" bindtap='sousuo'>搜索</button>  
+</view>
+
+<view class="ddclass" style="margin-left: 50rpx;z-index:80" hidden="{{!StorageFlag}}" style="z-index:100">
+  <view wx:for="{{searchStorage}}" wx:key="item.id">
+    <view class="liclass" style="color:#9E9E9E;border-bottom:0;font-size:35rpx;" id="{{item.id}}" bindtap="tapSercherStorage">
+      <text style="width:100rpx">{{item.name}}</text>
+    </view>
+  </view>
+
+  <view wx:if="{{sercherStorage.length!==0}}" style="text-align:center;" bindtap="clearSearchStorage">
+    <view style="color:#9E9E9E;border-bottom:0;font-size:35rpx;">清除历史记录</view>
+  </view>
+</view>
+
+<view class='goods-list'>
+    <view class='goodslist' wx:for="{{goods}}" wx:key="name">
+      <view>
+        <image class="goods-img" mode="widthFix" src=" {{item.image}}"/>
+      </view>
+      <navigator url="{{item.url+'?text='+item.text+'&code='+item.code}}">
+        <view class='goods-intro'>
+          <text class="goods-name">{{item.name}}</text>
+          <text class="goods-spot">{{item.spot}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>

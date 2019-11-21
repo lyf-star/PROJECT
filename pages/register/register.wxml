@@ -1,0 +1,75 @@
+ <view class='container'>
+   <view class="register-icon">
+
+    <image class="register-img"src="../images/loginLog.jpg"></image>
+   
+  </view>
+
+  <view class="register-icon">
+   <label class="register-headline">注册管理账号 </label>
+  </view>
+
+  <view class="login-from">
+    <view class='inputView'> 
+      <label class='loginLab'>姓名:</label>
+      <input class='inputText' placeholder="请输入姓名"/>
+      </view>
+
+      <view class='inputView'> 
+      <label class='loginLab'>学号/职工号:</label>
+      <input class='inputText' placeholder="请输入学号/职工号"/>
+      </view>
+
+          <view class='inputView'> 
+      <label class='loginLab'>手机号码:</label>
+      <input class='inputText' placeholder="请输入手机号码"/>
+      </view>
+
+       <view class='inputView'> 
+      <label class='loginLab'>邮箱:</label>
+      <input class='inputText' placeholder="请输入邮箱"/>
+      </view>
+
+       <view class='inputView'> 
+      <label class='loginLab'>组织:</label>
+      <input class='inputText' placeholder="请输入所属组织"/>
+      </view>
+
+      <view class="hintView">
+      <label class="loginLab"></label>
+      <label class="hint">例如：石牌校区校学生会文艺体育部</label>
+      </view>
+
+      <view class="inputView2">
+      <label class='loginLab'>职务:</label>
+      <input class='inputText2' placeholder="请输入个人职务"/>
+      </view>
+
+       <view class="hintView">
+      <label class="loginLab"></label>
+      <label class="hint">例如：主席、指导老师</label>
+      </view>
+
+<view class="inputView2">
+
+     <radio-group class="radio-group" bindchange="radioChange">
+
+        <label class="radio">学生
+          <radio value='student' checked='' ></radio>
+        </label>
+
+        <label class="radio">教职工
+          <radio value='teacher' checked='' ></radio>
+        </label>
+
+     </radio-group>
+     
+    
+</view>
+
+ <view class="buttonView">
+          <button class="button" value="register" bindtap='rg'>确定</button>
+     </view>
+
+</view>
+</view>

@@ -1,0 +1,139 @@
+.detail_container {
+  background-color: white;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+scroll-view {
+  background-color: white;
+  height: 100%;
+}
+
+.detail_swiper {
+  height: 500rpx;
+  border-top: 0.5px solid silver;
+  border-top-color: #efeff4;
+  border-bottom: 0.5px solid silver;
+  border-bottom-color: #efeff4;
+}
+
+swiper-item image {
+  width: 100%;
+  height: 500rpx;
+}
+
+.detail_in{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.detail_name {
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  padding: 10px 10px 0px 10px;
+  line-height: 1.5em;
+  display: flex;
+}
+
+.collect{
+  width: 50rpx;
+  height: 50rpx;
+  padding: 5px 10px 0px 10px;
+}
+
+.detail_spot {
+  font-size: 15px;
+  color: gray;
+  padding: 10px;
+  align-content: right;
+  border-bottom: 10px solid silver;
+  border-bottom-color: #efeff4;
+}
+
+.detail_spec {
+  margin: 10px;
+  font-size: 15px;
+  color: black;
+  padding: 10px;
+  line-height: 1.5em;
+  border: 1rpx dashed #a7a8a8;
+}
+
+.title{
+  color: black;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.col{
+  height: 30px;
+  display: flex;
+  margin: 3px;
+}
+
+.intro{
+  color: black;
+  font-size: 15px;
+  width: 50%;
+  justify-content: flex-start;
+  display: flex;   
+  flex-grow: 1; 
+  margin-left:5px;
+} 
+
+.info{
+  font-size: 15px;
+  justify-content: flex-end;
+  display: flex;   
+  flex-grow: 1;   
+  margin-right: 30px;
+}
+
+.seprater{
+  border-bottom: 10px solid silver;
+  border-bottom-color: #efeff4;
+}
+
+.detail_footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.bookbtn {
+  width: 100px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.text-box {
+  margin-bottom: 70rpx;
+  padding: 40rpx 0;
+  display: flex;
+  min-height: 300rpx;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30rpx;
+  color: #353535;
+  line-height: 2em;
+}
+
+.tips {
+  background-color: rgba(255, 255, 255, 0.5);
+  /*opacity: 0.2;*/
+  text-align: center;
+  line-height: 22px;
+  font-size: 18px;
+  color: red;
+}

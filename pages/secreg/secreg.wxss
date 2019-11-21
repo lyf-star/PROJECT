@@ -1,0 +1,13 @@
+/* pages/seclog/seclog.wxss */
+.bottomtype {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottomstyle{
+  color: white;
+  background-color: blue;
+  padding: 40rpx,80rpx;
+  margin: 30rpx;
+}

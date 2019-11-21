@@ -1,0 +1,7 @@
+<!--pages/seclog/seclog.wxml-->
+<view class="container" style="background:url('../images/3.jpg');background-size: cover">
+  <view class="bottomtype">
+    <button class="bottomstyle" bindtap="gotopersonlogin"> 个人用户登录 </button>
+    <button class="bottomstyle" bindtap="gotomanagerlogin"> 管理账号登录 </button>
+  </view>
+</view>

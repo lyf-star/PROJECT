@@ -1,0 +1,128 @@
+/* pages/myinfo/myinfo.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: whitesmoke;
+  height: 300rpx;
+  padding: 50rpx;
+}
+
+.loginbutton{
+  color: white;
+  background-color: blue;
+  padding: 30rpx,40rpx;
+  margin: 30rpx;
+}
+
+.account-bg {
+  width: 100%;
+  height: 150rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+/* 订单 */
+.order {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+}
+
+.myorder-text {
+  font-size: 30rpx;
+  color: gray;
+  margin: 20rpx;
+  width: 40%;
+}
+.myorderlook-text {
+  font-size: 30rpx;
+  color: gray;
+  position: relative;
+  right: 20rpx;
+  width: 60%;
+  text-align: right;
+}
+.next-image {
+  width: 40rpx;
+  height: 45rpx;
+  position: relative;
+  right: 10rpx;
+}
+.navs {
+  display: flex;
+}
+.nav-item {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20rpx;
+}
+.nav-item .nav-image {
+  width: 40rpx;
+  height: 40rpx;
+  margin: 5rpx;
+}
+.nav-item text {
+  margin-top: 20rpx;
+  font-size: 25rpx;
+  color: gray;
+}
+
+.person-list {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 5rpx;
+  padding: 15rpx;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80rpx;
+}
+
+ .item{
+  display: flex;
+  padding: 5rpx;
+ }
+
+.item-image {
+  width: 45rpx;
+  height: 45rpx;
+  margin: 10rpx;
+  padding: 5rpx;
+}
+
+.item-text {
+  color: black;
+  font-size: 35rpx;
+  margin: 10rpx;
+  padding: 5rpx;
+}
+
+.person-line {
+  width: 100%;
+  height: 4rpx;
+  background: lightgray;
+}

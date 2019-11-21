@@ -1,0 +1,53 @@
+.textbg{
+  margin-top: 10rpx;
+  background: green;
+  text-align: center;
+  padding: 30rpx;
+}
+
+.text{
+  font-size: 50rpx;
+  color: white;
+}
+/*物资列表*/
+.goods-list{
+  display: flex;  
+  flex-direction: column;
+  position:relative;
+}
+
+.goodslist{
+  display: flex;  
+  flex-direction: row;
+  border:1px solid #d9d9d9;  
+  padding: 5rpx;
+  margin-top: 3rpx;
+}
+
+.goods-img{
+  padding: 10rpx;
+  height: 250rpx;
+  width: 300rpx;
+}
+
+.goods-intro{
+  flex-direction: column;
+  margin: 10rpx;
+}
+
+.goods-name{
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.goods-spot{
+  display: block;
+  text-align: left;
+  color: #000;
+  font-size: 14px;
+  white-space: nowrap;
+}

@@ -1,0 +1,50 @@
+<view class="detail_container">
+  <scroll-view scroll-y="true" scroll-x="false" class="scroll-view">
+    <swiper class="detail_swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{detailData[curId].goodsCallyList}}">
+        <swiper-item>
+          <image src="{{item}}" mode="scaleToFill"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+    
+    <view class="detail_in">
+      <view class="detail_name">{{detailData[curId].name}}</view>
+      <view>
+        <image class='collect' bindtap="shoucang" wx:if="{{isClick}}" src="../images/collect1.png" />
+        <image class='collect' bindtap="shoucang" wx:else src="../images/collect2.png" />
+      </view>
+    </view>
+    <view class="detail_spot">{{detailData[curId].spot}}</view>
+
+    <view class="detail_spec">
+      <view class='title'>详细信息</view>
+      <view class='col'>
+        <label class='intro'>所属方：</label>
+        <input class='info' placeholder="学号/职工号"/>
+      </view>
+      <view class='col'>
+        <label class='intro'>联系方式：</label>
+        <input class='info' placeholder="学号/职工号"/>
+      </view>
+      <view class='col'>
+        <label class='intro'>租借价格：</label>
+        <input class='info' placeholder="学号/职工号"/>
+      </view>
+      <view class='col'>
+        <label class='intro'>可租借时间：</label>
+        <input class='info' placeholder="学号/职工号"/>
+      </view>
+      <view class='col'>
+        <label class='intro'>其他描述：</label>
+        <input class='info' placeholder="学号/职工号"/>
+      </view>
+    </view>
+    <view class='seprater'></view>
+    <view class="detail_footer">
+      <view class="bookbtn" bindtap="book">
+        <text>立即预约</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>

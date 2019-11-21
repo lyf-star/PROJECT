@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container" style="background:url('../images/3.jpg');background-size: cover">
+  <view>
+    <image class='avater' src='../images/1.jpg'></image>
+  </view>
+  <view class='intro'>
+    <label class='intro'>华南师范大学</label>
+    <label class='intro'>场地/物资租赁小程序</label>
+  </view>
+  <view class="bottomtype">
+    <button class="bottomstyle" bindtap="gotologin"> 登录 </button>
+    <button class="bottomstyle" bindtap="gotoregist"> 注册 </button>
+  </view>
+</view>

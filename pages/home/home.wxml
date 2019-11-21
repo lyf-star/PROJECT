@@ -1,0 +1,47 @@
+<!--pages/home/home.wxml-->
+<view>
+  <view class='view_row' bindtap="sousuo">  
+    <view class="search">  
+      <view class="df search_arr">  
+        <icon class="searchcion" size='20' type='search'></icon>  
+        <input class="" disabled placeholder="搜索物资或场地" value="{{searchValue}}"/>  
+      </view>  
+    </view>  
+    <view class='sousuo'>搜索</view>  
+  </view>
+
+  <view class='textbg'>
+    <text class='text'>华南师范大学</text>
+  </view>
+  <view class="separate-line"></view>
+ 
+  <view>
+    <view class="weui-grids">
+      <view class="weui-grid" wx:for="{{routers}}" wx:key="text">
+        <navigator url="{{'../detail/detail+?text='+item.text+'&code='+item.code}}">
+          <view class='weui-grid__bg'>
+            <view class="weui-grid__icon">
+              <image src=" {{item.icon}}" mode="scaleToFill" />
+            </view>
+            <text class="weui-grid__label">{{item.text}}</text>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+
+  <view class="separate-line"></view>
+  <view class='goods-list'>
+    <view class='goodslist' wx:for="{{goods}}" wx:key="name">
+      <view>
+        <image class="goods-img" mode="widthFix" src=" {{item.image}}"/>
+      </view>
+      <navigator url="../detail/detail?specId={{item.specId}}">
+        <view class='goods-intro'>
+          <text class="goods-name">{{item.name}}</text>
+          <text class="goods-spot">{{item.spot}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

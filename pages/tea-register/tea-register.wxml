@@ -1,0 +1,28 @@
+<view class="gallery">
+  <view class='tipTitle'>
+    注册教职工管理账号
+  </view>
+
+  <view class='hintView'>
+    <text class='hint'>该功能用于申请教职工管理账号权限，为确保身份验证和审核通过，请进行人脸信息的录入。</text>
+  </view>
+  <view class='item-ot'>
+    <view class="item">
+      <!-- 添加按钮 -->
+      <view class="addIcon" bindtap="chooseImage" wx:if="{{imgBoolean}}">
+          <view class=''>+</view>
+      </view>
+      <!-- 上传的图 -->
+      <view class='itemImg' >
+        <image src="{{item}}" data-src="{{item}}" bindtap="previewImage"  mode="aspectFill" />
+        <!-- 删除按钮 -->
+        <view class="delete" bindtap="deleteImg" data-index="{{index}}">X</view>
+      </view>
+      <view class='boxStyle'></view>
+    </view>
+    <view class='itemTxt'></view>
+  </view>
+  <view class='uploadFinish'>
+    <a class="uploadFinishBtn" href="javasctipt:;"  bindtap="submit">提  交</a>
+  </view> 
+</view>

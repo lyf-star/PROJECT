@@ -1,0 +1,99 @@
+.search{  
+  width: 80%;  
+}  
+
+.search_arr {  
+  border: 1px solid #d0d0d0;  
+  border-radius: 50rpx;  
+  margin-left: 20rpx;  
+}  
+
+.search_arr input{  
+  margin-left: 70rpx;  
+  height: 60rpx; 
+}  
+
+.sousuo {  
+  padding: 5px;
+  font-size: 16px;
+  width: 18%;  
+  line-height: 80%;   
+  border: 1px solid #d0d0d0;  
+  border-radius: 20rpx;  
+}  
+
+.view_row{  
+  display: flex;  
+  flex-direction: row  
+}  
+
+.searchcion {  
+  margin: 10rpx 10rpx 10rpx 10rpx;  
+  position: absolute;  
+  left:30rpx;  
+  z-index: 2;  
+  width: 20px;  
+  height: 20px;  
+  text-align: center;   
+}  
+
+.ddclass { 
+ position: absolute; 
+ width: 100%; 
+ margin-top: 10px; 
+ left: 0; 
+} 
+/*搜索历史普通样式*/
+ .liclass { 
+ font-size: 14px; 
+ line-height: 34px; 
+ color: #575757; 
+ height: 34px; 
+ display: block; 
+ padding-left: 18px; 
+ background-color: #fff; 
+ border-bottom: 1px solid #dbdbdb; 
+} 
+
+/*物资列表*/
+.goods-list{
+  display: flex;  
+  flex-direction: column;
+  position:relative;
+}
+
+.goodslist{
+  display: flex;  
+  flex-direction: row;
+  border:1px solid #d9d9d9;  
+  padding: 5rpx;
+  margin-top: 3rpx;
+}
+
+.goods-img{
+  padding: 10rpx;
+  height: 250rpx;
+  width: 300rpx;
+}
+
+.goods-intro{
+  flex-direction: column;
+  margin: 10rpx;
+}
+
+.goods-name{
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.goods-spot{
+  display: block;
+  text-align: left;
+  color: #000;
+  font-size: 14px;
+  white-space: nowrap;
+}
