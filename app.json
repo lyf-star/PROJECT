@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/tea-register/tea-register",
+    "pages/std-register/std-register", 
+    "pages/register/register",
+    "pages/login/login",
+    "pages/myinfo/myinfo",
+    "pages/logs/logs",
+    "pages/seclog/seclog",
+    "pages/secreg/secreg",
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/info/info",
+    "pages/about/about",
+    "pages/mylike/mylike"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "测试",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath":"pages/images/home-1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/myinfo/myinfo",
+        "iconPath": "pages/images/account.png",
+        "selectedIconPath": "pages/images/account-1.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
